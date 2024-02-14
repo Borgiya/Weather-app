@@ -1,0 +1,123 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(88, 94, 92);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  width:350px;
+  padding: 20px;
+  background-color: whitesmoke;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px rgb(61, 56, 56);
+}
+.input-container{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  border: 2px solid blue;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.cityInput{
+  flex: 1;
+  height: 30px;
+  border: none;
+  font-size: 16px;
+  outline:none;
+  padding: 10px;
+}
+.searchIcon{
+  padding: 10px;
+  height: 30px;
+  cursor: pointer;
+}
+.image{
+  text-align: center;
+  height: 150px;
+  margin-bottom: 10px;
+}
+.temp,.location,.country{
+  margin-top:5px;
+  font-size: 30px;
+  color: hwb(0 11% 89%);
+  text-transform: uppercase;
+  text-align: center;
+}
+.temp{
+  font-weight: 500;
+}
+.location{
+  color:rgb(253, 216, 2);
+  font-weight: 400;
+  font-size: 40px;
+}
+.country{
+  font-size: 18px;
+  color:gray;
+  font-weight: 500;
+}
+.cord{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+  margin-top: 10px;
+  text-align: center;
+}
+.cord div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.cord div span{
+  font-size: 14px;
+}
+.cord div span:nth-child(2){
+  font-size: 18px;
+  color:#666;
+  padding: 5px;
+  font-weight: bold;
+}
+.humidity-percent,
+.wind-percent,
+.data-container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.element{
+  text-align: center;
+}
+.icon{
+  height: 50px;
+  width: 50px;
+}
+.text{
+  font-size: 12px;
+  color: #888;
+}
+.copyright{
+  text-align: center;
+  font-size: 12px;
+  color:#888;
+}
+.copyright span{
+  color:#333;
+}
+.loading-message,
+.error-message,
+.city-not-found{
+  margin-top: 10px;
+  color: #888;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+}
+
